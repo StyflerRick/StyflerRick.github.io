@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    background: url(img.jpg)no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.cabecalho a {
+    text-decoration: solid;
+    background: transparent;
+    font-size: 2em;
+    color: #fff;
+
+}
+
+.Login a {
+    position: absolute;
+    right: 38px;
+    top: 4px;
+}
+
+.Inicio a {
+    position: absolute;
+    right: 150px;
+    top: 4px;
+}
+
+.Login ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 2em;
+    top: 7px;
+
+}
+
+.descricao h1 {
+    position: absolute;
+    left: 17px;
+    top: 150px;
+    font-size: 3em;
+    color: #fff;
+}
+
+.descricao h2 {
+    position: absolute;
+    left: 12px;
+    top: 210px;
+    font-size: 2em;
+    color: #217b86;
+}
+
+.descricao h3 {
+    position: absolute;
+    left: 12px;
+    top: 240px;
+    font-size: 2em;
+    color: #217b86;
+}
+
+.git a {
+    position: absolute;
+    font-size: 3em;
+    left: 10px;
+    top: 280px;
+
+}
+
+.disc a {
+    position: absolute;
+    font-size: 3em;
+    left: 70px;
+    top: 282px;
+
+}

@@ -25,7 +25,7 @@ section {
 
 .Login a {
     position: absolute;
-    right: 38px;
+    right: 48px;
     top: 4px;
 }
 
@@ -35,12 +35,12 @@ section {
     top: 4px;
 }
 
-.Login ion-icon {
+.Login a ion-icon {
     position: absolute;
-    right: 8px;
+    right: -30px;
     color: #fff;
-    font-size: 2em;
-    top: 7px;
+    font-size: 1em;
+    top: 5px;
 
 }
 

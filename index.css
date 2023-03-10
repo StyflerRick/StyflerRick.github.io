@@ -5,9 +5,6 @@
 }
 
 section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     min-height: 100vh;
     width: 100%;
     background: url(index.jpg)no-repeat;
@@ -47,46 +44,44 @@ section {
 .descricao h1 {
     position: absolute;
     left: 17px;
-    top: 150px;
-    font-size: 3em;
+    top: 130px;
+    font-size: 4em;
     color: #fff;
 }
 
 .descricao h2 {
     position: absolute;
-    left: 12px;
-    top: 210px;
-    font-size: 2em;
-    color: #217b86;
+    left: 30px;
+    top: 200px;
+    font-size: 2.5em;
+    color: #8400ff;
 }
 
 .descricao h3 {
     position: absolute;
-    left: 12px;
+    left: 40px;
     top: 240px;
     font-size: 2em;
-    color: #217b86;
+    color: #8400ff;
+}
+.descricao h4{
+    position: absolute;
+    font-size: 1.1em;
+    color: #ffffff;
+    left: 60px;
+    top: 330px;
 }
 
-.git a {
-    position: absolute;
+.img {
+    width: 300px;
+}
+
+.img a {
+    position: relative;
+    display: inline-block;
+    margin-right: 2px;
     font-size: 3em;
     left: 10px;
-    top: 282px;
-
-}
-
-.disc a {
-    position: absolute;
-    font-size: 3em;
-    left: 70px;
-    top: 282px;
-
-}
-
-.linkedin a {
-    position: absolute;
-    font-size: 3em;
-    left: 130px;
-    top: 282px;
+    margin-top: 700px;
+    color: #4c00ff;
 }

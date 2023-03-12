@@ -6,7 +6,6 @@
 
 section {
     display: flex;
-    left: 50px;
     justify-content: left;
     align-items: center;
     min-height: 100vh;
@@ -48,7 +47,7 @@ h2 {
     position: absolute;
     top: 50%;
     left: 5px;
-    transform: translateY(-40%);
+    transform: translateY(-100%);
     color: #fff;
     font-size: 1em;
     pointer-events: none;
@@ -58,7 +57,7 @@ h2 {
 
 input:focus~label,
 input:valid~ :label {
-    top: -5px;
+    top: -15px;
 }
 
 .inputbox input {
@@ -89,11 +88,6 @@ input:valid~ :label {
     color: #fff;
     display: flex;
     justify-content: center;
-
-}
-
-.forget label input {
-    margin-left: 3px;
 
 }
 

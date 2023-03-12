@@ -6,7 +6,8 @@
 
 section {
     display: flex;
-    justify-content: center;
+    left: 50px;
+    justify-content: left;
     align-items: center;
     min-height: 100vh;
     width: 100%;
@@ -18,10 +19,11 @@ section {
 
 .form-box {
     position: relative;
+    left: 50px;
     width: 400px;
     height: 450px;
     background: transparent;
-    border: 2px solid rgba(255, 255, 255, 0.5);
+    /*border: 2px solid rgba(255, 255, 255, 0.5);*/
     display: flex;
     justify-content: center;
     align-items: center;

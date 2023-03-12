@@ -18,7 +18,6 @@ section {
 
 .form-box {
     position: relative;
-    left: 50px;
     width: 400px;
     height: 450px;
     background: transparent;
@@ -100,7 +99,7 @@ input:valid~ :label {
 
 .forget label a:hover {
     text-decoration: underline;
-    color: blue;
+    color: #e0a365;
 }
 
 button {
@@ -130,7 +129,7 @@ button {
 
 .register p a:hover {
     text-decoration: underline;
-    color: blue;
+    color: #e0a365;
 }
 
 .back ion-icon {

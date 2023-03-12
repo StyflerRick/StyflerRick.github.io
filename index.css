@@ -64,7 +64,8 @@ section {
     font-size: 2em;
     color: #8400ff;
 }
-.descricao h4{
+
+.descricao h4 {
     position: absolute;
     font-size: 1.1em;
     color: #ffffff;

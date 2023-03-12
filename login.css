@@ -11,7 +11,7 @@ section {
     min-height: 100vh;
     width: 100%;
     background: #00ff00;
-    background: url(login.jpg)no-repeat;
+    background: url(index.jpg)no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -135,4 +135,20 @@ button {
 .register p a:hover {
     text-decoration: underline;
     color: blue;
+}
+
+.back ion-icon {
+    position: absolute;
+    right: 80px;
+    top: 2px;
+
+}
+
+.back a {
+    position: absolute;
+    text-decoration: none;
+    font-size: 2em;
+    top: 4px;
+    left: 40px;
+    color: #fff;
 }

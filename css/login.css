@@ -6,12 +6,12 @@
 
 section {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
     width: 100%;
-    background: #00ff00;
-    background: url(index.jpg)no-repeat;
+    background: #000000;
+    background: url(img/index.jpg)no-repeat;
     background-position: center;
     background-size: cover;
 }
@@ -21,7 +21,7 @@ section {
     width: 400px;
     height: 450px;
     background: transparent;
-    /*border: 2px solid rgba(255, 255, 255, 0.5);*/
+    border: 2px solid rgba(255, 255, 255, 0.5);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -81,6 +81,21 @@ input:valid~ :label {
 
 }
 
+#toggleSenha{
+    padding: 0;
+    margin: 0;
+    line-height: 0;
+}
+
+#toggleimgsenha{
+    position: absolute;
+    right: 30px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 32px;
+
+}
+
 .forget {
     margin: -15px 0 15px;
     font-size: .9em;
@@ -102,7 +117,7 @@ input:valid~ :label {
     color: #e0a365;
 }
 
-button {
+#submit {
     width: 100%;
     height: 40px;
     border-radius: 40px;

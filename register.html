@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="css/register.css">
+    <title>Registrar-se</title>
 </head>
 
 <body>
@@ -14,11 +14,21 @@
         <div class="form-box">
             <div class="form-value">
                 <form action="">
-                    <h2>Login</h2>
+                    <h2>Cadastre-se</h2>
+                    <div class="inputbox">
+                        <ion-icon name="person"></ion-icon>
+                        <label for="name">Nome Completo</label>
+                        <input type="name" name='name' required>
+                    </div>
+                    <div class="inputbox">
+                        <ion-icon name="phone-portrait-outline"></ion-icon>
+                        <label for="celular">Celular</label>
+                        <input type="celular" name='celular' opcional>
+                    </div>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
-                        <input id='email' type="name" required>
                         <label for="email">Email</label>
+                        <input type="email" name='email' required>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
@@ -26,13 +36,7 @@
                         <label for='password'>Senha</label>
                         <a id='toggleSenha' type="button" onclick="toggleSenha()"><ion-icon id="toggleimgsenha" name="eye-off-outline"></ion-icon></a>
                     </div>
-                    <div class="forget">
-                        <label for=""><input type="checkbox"> Lembrar de mim. <a href="#">Esqueci a senha</a></label>
-                    </div>
-                    <button id='submit' type="submit" onclick="logar(); return false;">Entrar</button>
-                    <div class="register">
-                        <p>Não tem conta? <a href="register.html">Registrar</a></p>
-                    </div>
+                    <button id='submit' type="submit">Cadastrar</button>
                 </form>
             </div>
         </div>

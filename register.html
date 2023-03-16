@@ -13,26 +13,31 @@
     <section>
         <div class="form-box">
             <div class="form-value">
-                <form action="">
+                <form id="MyForm" method="POST" action="">
                     <h2>Cadastre-se</h2>
-                    <div class="inputbox">
+                    <div class="half_inputbox">
                         <ion-icon name="person"></ion-icon>
-                        <label for="name">Nome Completo</label>
-                        <input type="name" name='name' required>
+                        <label for="name">Nome</label>
+                        <input type="name" name='name' autocomplete="off" required>
+                    </div>
+                    <div class="half_inputbox">
+                        <ion-icon name="person"></ion-icon>
+                        <label for="user">Usuario</label>
+                        <input type="name" name='user' autocomplete="off" required>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="phone-portrait-outline"></ion-icon>
                         <label for="celular">Celular</label>
-                        <input type="celular" name='celular' opcional>
+                        <input id="celular" type="celular" name='celular' autocomplete="off" placeholder="Opcional" opcional>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="mail-outline"></ion-icon>
                         <label for="email">Email</label>
-                        <input type="email" name='email' required>
+                        <input type="email" name='email' autocomplete="off" required>
                     </div>
                     <div class="inputbox">
                         <ion-icon name="lock-closed-outline"></ion-icon>
-                        <input id='password' type="password" name= 'password' required>
+                        <input id='password' type="password" autocomplete="off" name= 'password' required>
                         <label for='password'>Senha</label>
                         <a id='toggleSenha' type="button" onclick="toggleSenha()"><ion-icon id="toggleimgsenha" name="eye-off-outline"></ion-icon></a>
                     </div>

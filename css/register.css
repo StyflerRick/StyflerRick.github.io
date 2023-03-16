@@ -29,7 +29,9 @@ section {
 }
 
 h2 {
+    position: relative;
     font-size: 2em;
+    bottom: 20px;
     color: #fff;
     text-align: center;
 
@@ -44,6 +46,7 @@ h2 {
 
 .inputbox label {
     position: absolute;
+    font-weight: bold;
     top: 50%;
     left: 5px;
     transform: translateY(-100%);
@@ -93,6 +96,7 @@ input:valid~ :label {
 
 #submit {
     width: 100%;
+    margin-top: 20px;
     height: 40px;
     border-radius: 40px;
     border: none;
@@ -101,6 +105,11 @@ input:valid~ :label {
     cursor: pointer;
     font-size: 1em;
     font-weight: 600;
+}
+
+#submit:hover{
+    background-color: #e2882e;
+    color: #fff;
 }
 
 .back ion-icon {
@@ -117,4 +126,52 @@ input:valid~ :label {
     top: 4px;
     left: 40px;
     color: #fff;
+}
+
+
+.half_inputbox {
+    display: inline-block;
+    position: relative;
+    top: 15px;
+    margin: 10px 0;
+    width: 150px;
+    border-bottom: 2px solid #fff;
+}
+
+
+.half_inputbox label {
+    position: relative;
+    font-weight: bold;
+    left: 5px;
+    transform: translateY(-100%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+
+}
+
+.half_inputbox input {
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 10px 0 5px;
+    color: #fff;
+
+}
+
+.half_inputbox ion-icon {
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 25px;
+
+}
+
+input::placeholder {
+    font-size: .8em;
+    color: #ffffff;
+    font-weight: bold;
 }
